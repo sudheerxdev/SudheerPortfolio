@@ -8,8 +8,9 @@ const skillCategories = [
     title: "Languages",
     icon: Code2,
     skills: [
+      { name: "Java", percentage: 90 },
       { name: "C++", percentage: 90 },
-      { name: "Python", percentage: 85 },
+      { name: "Python", percentage: 70 },
       { name: "JavaScript", percentage: 88 },
     ],
   },
