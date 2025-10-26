@@ -135,9 +135,9 @@ const Home = () => {
               transition={{ delay: 0.6 }}
             >
               {[
-                { Icon: Github, href: "https://github.com/sudheerrrrit", label: "GitHub" },
-                { Icon: Linkedin, href: "#", label: "LinkedIn" },
-                { Icon: Mail, href: "#", label: "Email" }
+                { Icon: Github, href: "https://github.com/sudheerxdev", label: "GitHub" },
+                { Icon: Linkedin, href: "https://www.linkedin.com/in/sudheercodec/", label: "LinkedIn" },
+                { Icon: Mail, href: "yadavsudheer20072005@gmail.com", label: "Email" }
               ].map(({ Icon, href, label }) => (
                 <Tilt key={label} tiltMaxAngleX={20} tiltMaxAngleY={20} scale={1.1}>
                   <a
