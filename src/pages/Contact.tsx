@@ -32,9 +32,9 @@ const socialLinks = [
   {
     name: "Email",
     icon: Mail,
-    url: "mailto:sudheer@example.com",
+    url: "mailto:yadavsudher20072005@gmail.com",
     color: "hsl(0 84% 60%)",
-    username: "sudheer@example.com",
+    username: "yadavsudheer20072005@gmail.com",
   },
 ];
 
@@ -92,7 +92,7 @@ const Contact = () => {
                   value={formData.name}
                   onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                   className="bg-background/50 border-white/10 focus:border-primary/50 focus:ring-primary/20"
-                  placeholder="John Doe"
+                  placeholder="Sudheer Yadav"
                 />
               </div>
 
