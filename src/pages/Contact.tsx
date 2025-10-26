@@ -11,9 +11,9 @@ const socialLinks = [
   {
     name: "GitHub",
     icon: Github,
-    url: "https://github.com/sudheerrrrit",
+    url: "https://github.com/sudheerxdev",
     color: "hsl(0 0% 100%)",
-    username: "@sudheerrrrit",
+    username: "@sudheerxdev",
   },
   {
     name: "LinkedIn",
