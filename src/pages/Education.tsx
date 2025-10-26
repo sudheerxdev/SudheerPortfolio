@@ -1,8 +1,9 @@
-import { motion } from "framer-motion";
+import { motion, useScroll, useTransform } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { GraduationCap, Award, Download, BookOpen } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { useEffect, useState } from "react";
+import Tilt from "react-parallax-tilt";
+import { useEffect, useState, useRef } from "react";
 
 const educationData = [
   {
@@ -56,9 +57,15 @@ const CountUpNumber = ({ end, duration = 2 }: { end: number; duration?: number }
 
 const Education = () => {
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 });
+  const containerRef = useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: containerRef,
+    offset: ["start end", "end start"]
+  });
+  const y = useTransform(scrollYProgress, [0, 1], [100, -100]);
 
   return (
-    <section className="min-h-screen px-4 pt-24 pb-16">
+    <section ref={containerRef} className="min-h-screen px-4 pt-24 pb-16 relative overflow-hidden">
       <div className="container mx-auto max-w-6xl">
         {/* Header */}
         <motion.div
@@ -171,6 +178,16 @@ const Education = () => {
           </Button>
         </motion.div>
       </div>
+
+      {/* Parallax decorative elements */}
+      <motion.div 
+        style={{ y }}
+        className="absolute top-1/4 left-10 w-64 h-64 bg-primary/10 rounded-full blur-3xl -z-10" 
+      />
+      <motion.div 
+        style={{ y: useTransform(scrollYProgress, [0, 1], [-100, 100]) }}
+        className="absolute bottom-1/3 right-10 w-80 h-80 bg-secondary/10 rounded-full blur-3xl -z-10" 
+      />
     </section>
   );
 };

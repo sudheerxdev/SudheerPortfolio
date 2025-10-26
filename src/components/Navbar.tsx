@@ -3,10 +3,10 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
-const navLinks = [
-  { name: "Home", path: "/" },
-  { name: "About", path: "/about" },
-  { name: "Projects", path: "/projects" },
+  const navLinks = [
+    { name: "Home", path: "/" },
+    { name: "Skills", path: "/skills" },
+    { name: "Projects", path: "/projects" },
   { name: "CP Stats", path: "/competitive-programming" },
   { name: "Education", path: "/education" },
   { name: "Achievements", path: "/achievements" },

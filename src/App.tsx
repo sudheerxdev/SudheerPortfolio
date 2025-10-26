@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar";
 import ParticleBackground from "./components/ParticleBackground";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
-import About from "./pages/About";
+import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import CompetitiveProgramming from "./pages/CompetitiveProgramming";
 import Education from "./pages/Education";
@@ -29,7 +29,7 @@ const App = () => (
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
+            <Route path="/skills" element={<Skills />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/competitive-programming" element={<CompetitiveProgramming />} />
             <Route path="/education" element={<Education />} />
