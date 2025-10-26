@@ -28,28 +28,52 @@ const metrics = [
 ];
 
 const milestones = [
-  {
+   {
     year: "2021",
+    title: "Mathematics Champion",
+    description: "Scored 99/100 in Class 10th Mathematics",
+    achievement: "Top Scorer",
+  },
+  {
+    year: "2022",
+    title: "Mathematics Champion",
+    description: "Scored 99/100 in Class 11th Mathematics",
+    achievement: "Top Scorer",
+  },
+   {
+    year: "2023",
     title: "Mathematics Champion",
     description: "Scored 99/100 in Class 12th Mathematics",
     achievement: "Top Scorer",
   },
   {
-    year: "2022",
+    year: "2024",
     title: "B.Tech Journey Begins",
     description: "Started Computer Science Engineering with focus on algorithms",
     achievement: "Academic Start",
   },
+   {
+    year: "2024",
+    title: "DSA Excellence",
+    description: "Scored 59/70 in Data Structures ",
+    achievement: "Strong Foundation",
+  },
   {
     year: "2023",
-    title: "DSA Excellence",
-    description: "Scored 59/70 in Data Structures & 69/70 in Engineering Math",
+    title: "Mathematics Excellence",
+    description: "Scored 69/70 in Engineering Math",
     achievement: "Strong Foundation",
   },
   {
     year: "2024",
     title: "Competitive Programming",
-    description: "Achieved 500+ problems solved across platforms",
+    description: "Achieved 1000+ problems solved across platforms",
+    achievement: "Coding Milestone",
+  },
+  {
+    year: "2025",
+    title: "Competitive Programming",
+    description: "Achieved 400+ problems solved across leetcode platforms",
     achievement: "Coding Milestone",
   },
 ];
