@@ -9,12 +9,12 @@ const educationData = [
   {
     degree: "B.Tech in Computer Science Engineering",
     institution: "Babu Banarasi Das Northern India Institute Of Technology , Lucknow",
-    period: "2021 - 2025",
+    period: "2023 - 2027",
     highlights: [
-      { subject: "Engineering Mathematics", score: 69, total: 70 },
+      { subject: "Engineering Mathematics 2", score: 69, total: 70 },
       { subject: "Data Structures & Algorithms", score: 59, total: 70 },
       { subject: "Object-Oriented Programming", score: 62, total: 70 },
-      { subject: "Database Management Systems", score: 58, total: 70 },
+      { subject: "Engineering Mathematics 1", score: 59, total: 70 },
     ],
     icon: GraduationCap,
   },
@@ -24,8 +24,8 @@ const educationData = [
     period: "2019 - 2021",
     highlights: [
       { subject: "Mathematics", score: 99, total: 100 },
-      { subject: "Physics", score: 92, total: 100 },
-      { subject: "Chemistry", score: 88, total: 100 },
+      { subject: "Physics", score: 97, total: 100 },
+      { subject: "English", score: 96, total: 100 },
     ],
     icon: Award,
   },
