@@ -20,7 +20,7 @@ const educationData = [
   },
   {
     degree: "Class 12th (Science - PCM)",
-    institution: "High School",
+    institution: "Janta Inter College",
     period: "2019 - 2021",
     highlights: [
       { subject: "Mathematics", score: 99, total: 100 },
