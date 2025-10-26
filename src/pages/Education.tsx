@@ -8,7 +8,7 @@ import { useEffect, useState, useRef } from "react";
 const educationData = [
   {
     degree: "B.Tech in Computer Science Engineering",
-    institution: "Engineering College",
+    institution: "Babu Banarasi Das Northern India Institute Of Technology , Lucknow",
     period: "2021 - 2025",
     highlights: [
       { subject: "Engineering Mathematics", score: 69, total: 70 },
