@@ -9,7 +9,7 @@ const platforms = [
     stats: {
       solved: "350+",
       rank: "Top 15%",
-      streak: "45 Days",
+      streak: "120+ Days",
     },
     color: "hsl(30 100% 50%)",
     link: "https://leetcode.com",
@@ -20,7 +20,7 @@ const platforms = [
     stats: {
       rating: "1450",
       maxRating: "1520",
-      contests: "25+",
+      contests: "5+",
     },
     color: "hsl(210 100% 50%)",
     link: "https://codeforces.com",
@@ -30,8 +30,8 @@ const platforms = [
     icon: Target,
     stats: {
       rating: "1680",
-      stars: "3★",
-      contests: "18+",
+      stars: "2★",
+      contests: "5+",
     },
     color: "hsl(25 100% 50%)",
     link: "https://codechef.com",
@@ -45,12 +45,12 @@ const achievements = [
     icon: Trophy,
   },
   {
-    title: "500+ Problems Solved",
+    title: "1100+ Problems Solved",
     description: "Across all competitive programming platforms",
     icon: Target,
   },
   {
-    title: "Specialist on Codeforces",
+    title: " on Codeforces",
     description: "Achieved 1500+ rating in under 6 months",
     icon: TrendingUp,
   },
