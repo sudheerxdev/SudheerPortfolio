@@ -19,6 +19,7 @@ const platforms = [
     icon: Trophy,
     stats: {
       rating: "1450",
+      
       maxRating: "1520",
       contests: "5+",
     },
