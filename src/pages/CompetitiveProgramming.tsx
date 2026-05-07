@@ -9,6 +9,7 @@ const platforms = [
     icon: Code,
     stats: {
       solved: "350+",
+
       
       rank: "Top 15%",
       streak: "120+ Days",
