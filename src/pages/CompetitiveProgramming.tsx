@@ -5,6 +5,7 @@ import { Trophy, Code, Target, TrendingUp } from "lucide-react";
 
 
 
+
 const platforms = [
   {
     name: "LeetCode",
